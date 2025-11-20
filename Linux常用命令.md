@@ -1,0 +1,38 @@
+# Linux常用命令
+
+1. 管理进程
+   * ps
+   * top
+   * kill
+   * killall
+2. 查看系统信息
+   * uname
+   * dmidecode
+   * 查看物理CPU和内存信息
+   * 查看CPU详细信息
+   * 查看OS信息
+3. 查看管理磁盘
+   * df
+   * lsblk
+   * blkid
+   * fdisk
+   * mount
+   * umount
+4. 管理服务
+   * systemctl
+5. 管理资源占用
+   * lsof
+   * netstat
+   * vmstat
+6. 获取用户登录信息
+   * who
+   * w
+   * users
+   * last
+   * lastb
+   * lastlog
+   * cat /var/log/secure
+7. 管理用户
+   * useradd
+   * userdel
+   * wheel
