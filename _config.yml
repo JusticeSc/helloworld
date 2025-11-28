@@ -2,11 +2,7 @@ title: 我的极简博客
 description: 记录学习与生活   
 author: justice              
 
-# jekyll-theme-primer (默认风格)
-theme: jekyll-theme-minimal
-# jekyll-theme-cayman (蓝色渐变，推荐)
-# jekyll-theme-slate (黑酷风格)
-# theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
 
 permalink: /:title/
 
