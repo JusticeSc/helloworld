@@ -1,46 +1,5 @@
 # Linux常用命令
 
-1. 管理进程
-   * ps
-   * top
-   * kill
-   * killall
-2. 查看系统信息
-   * uname
-   * dmidecode
-   * 查看物理CPU和内存信息
-   * 查看CPU详细信息
-   * 查看OS信息
-3. 查看管理磁盘
-   * df
-   * lsblk
-   * blkid
-   * fdisk
-   * mount
-   * umount
-4. 管理服务
-   * systemctl
-5. 管理资源占用
-   * lsof
-   * netstat
-   * vmstat
-6. 获取用户登录信息
-   * who
-   * w
-   * users
-   * last
-   * lastb
-   * lastlog
-   * cat /var/log/secure
-7. 管理用户
-   * useradd
-   * userdel
-   * wheel
-
-
-
-以下是 Linux 系统中常用的命令分类总结，涵盖日常操作、文件管理、系统监控、网络调试等核心场景：
-
 ---
 
 ### 一、文件与目录操作
@@ -125,7 +84,3 @@
 - **which / type**：查找命令位置或类型
 - **date / cal**：查看时间和日历
 - **screen / tmux**：持久化终端会话（适合 SSH 远程作业）
-
----
-
-这些命令是 Linux 日常使用和系统管理的基础，熟练掌握可大幅提升工作效率。建议结合实际场景多加练习，并善用 `man` 和 `--help` 获取详细帮助。
