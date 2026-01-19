@@ -23,3 +23,5 @@
 [MySQL核心](./MySQL核心.md)
 
 [pandas](./pandas.md)
+
+[translate-10 mintues to pandas](./translate-10 mintues to pandas.md)
