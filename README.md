@@ -25,3 +25,5 @@
 [pandas](./pandas.md)
 
 [translate-10 mintues to pandas](./translate-10 mintues to pandas.md)
+
+[transalte-working with missing data](./translate-working with missing data)
