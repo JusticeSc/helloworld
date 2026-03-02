@@ -31,3 +31,5 @@
 [translate-essential basic functionality](./translate-essential basic functionality.md)
 
 [人工智能中智能的定义与衡量标准.md](./人工智能中智能的定义与衡量标准.md)
+
+[自动微分](./自动微分.md)
