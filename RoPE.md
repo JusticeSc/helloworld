@@ -23,35 +23,32 @@ RoPE 不采用“加法融合”（如原始 Transformer），而是对查询（
 
 
 
-$
+$$
 \mathbf{q} = [q_0, q_1, \dots, q_{d/2-1}], \quad q_i = \begin{bmatrix} q_{2i} \\ q_{2i+1} \end{bmatrix}
-$
-
+$$
 
 
 对每个子空间应用旋转矩阵：
 
 
 
-$
+$$
 \tilde{q}_{m,i} = 
 \begin{bmatrix}
 \cos(m \theta_i) & -\sin(m \theta_i) \\
 \sin(m \theta_i) & \cos(m \theta_i)
 \end{bmatrix}
 q_i
-$
-
+$$
 
 
 其中频率参数：
 
 
 
-$
+$$
 \theta_i = \frac{1}{\text{base}^{\, 2i / d}}, \quad \text{通常 } \text{base} = 10000
-$
-
+$$
 
 
 > 💡 **直观理解**：每个二维平面上的向量被“转”了一个角度 $m \theta_i$，位置越远，转得越多。
@@ -62,10 +59,9 @@ $
 
 
 
-$
+$$
 \tilde{\mathbf{q}}_m^\top \tilde{\mathbf{k}}_n = \mathbf{q}^\top \mathbf{R}_{m-n} \mathbf{k}
-$
-
+$$
 
 
 其中$ \mathbf{R}_{m-n}$ 是仅由相对位置 \(m - n\) 决定的块对角旋转矩阵。
@@ -105,9 +101,9 @@ $
 
   
 
-  $
+  $$
   \theta_{\min} \approx 10^{-4} \Rightarrow T_{\min} \approx 62832
-  $
+  $$
 
   
 
