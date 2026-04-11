@@ -43,3 +43,5 @@
 [RoPE](./RoPE.md)
 
 [transformer中的前馈网络](./transformer中的前馈网络.md)
+
+[欠拟合和过拟合](./欠拟合和过拟合.md)
