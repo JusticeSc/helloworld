@@ -41,3 +41,5 @@
 [编程语言分析](./编程语言分析.md)
 
 [RoPE](./RoPE.md)
+
+[transformer中的前馈网络](./transformer中的前馈网络.md)
