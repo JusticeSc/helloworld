@@ -49,3 +49,7 @@
 [相对路径](./相对路径.md)
 
 [RAG评估指标](./RAG评估指标.md)
+
+[Context_Percision](./Context_Percision.md)
+
+[f1_score](./f1_score.md)

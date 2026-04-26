@@ -1,4 +1,4 @@
-# 深入理解 RAG 评估中的 Context Precision：从建构到公式的全面剖析
+# 深入理解 RAG 评估中的 Context Precision
 
 在 RAG（检索增强生成）系统中，检索器的表现几乎直接决定了最终生成答案的质量。但长期以来，我们习惯用 Retrieve@K、Recall 等指标来判断“有没有检索到相关信息”，却忽略了一个同样致命的问题：**检索到的信息排在什么位置？** 正是在这种需求的推动下，Context Precision 这一指标被建构出来，并在 RAGAS 等评测框架中占据了核心地位。
 
@@ -34,10 +34,10 @@
 
 延续 AP 的数学结构，设计者给出明确公式，并赋予一个新名字——**Context Precision**。这个名字直接强调了三个关键信息：它是关于“上下文”的指标、衡量的是“精确度”、且暗含了顺序。最终形成的计算公式如下：
 
-\[
+$\[
 \text{Context Precision} = \frac{\sum_{k=1}^n P@k \times rel(k)}{\sum_{k=1}^n rel(k)}
-\]
-其中 \( P@k = \frac{1}{k} \sum_{i=1}^k rel(i) \)。
+\]$
+其中$ \( P@k = \frac{1}{k} \sum_{i=1}^k rel(i) \)$。
 
 ### 第 4 步：处理边界与缺失条件
 
