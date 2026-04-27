@@ -50,6 +50,6 @@
 
 [RAG评估指标](./RAG评估指标.md)
 
-[Context_Percision](./Context_Percision.md)
+[Context_Precision](./Context_Precision.md)
 
 [f1_score](./f1_score.md)
