@@ -64,4 +64,6 @@
 
 [决策设计思路](./决策设计思路.md)
 
-[scal](./scaling law.md)
+[scaling_law](./scaling law.md)
+
+[穿越幻想](./穿越幻想.md)
